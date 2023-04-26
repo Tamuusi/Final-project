@@ -1,0 +1,307 @@
+@font-face {
+  font-family: poppins;
+  src: url(../assets/fonts/Poppins-Regular.ttf);
+}
+
+* {
+  font-family: poppins;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logo {
+  margin-top: 30px;
+  margin-left: 70px;
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  width: 70px;
+  height: 30px;
+}
+
+.nav-bar {
+  font-size: 16px;
+  color: white;
+  display: flex;
+  position: absolute;
+  top: 30px;
+  gap: 30px;
+  margin-left: 410px;
+}
+
+.user {
+  font-size: 14px;
+  color: white;
+  display: inline-block;
+  display: flex;
+  align-items: end;
+  margin-left: 1300px;
+  gap: 10px;
+  position: absolute;
+  top: 30px;
+}
+
+.user_photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.title h1 {
+  font-size: 45px;
+  color: aliceblue;
+  position: absolute;
+  top: 180px;
+  margin-left: 360px;
+}
+.button {
+  position: absolute;
+  top: 280px;
+  margin-left: 630px;
+  color: white;
+  background-color: #7b61ff;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 19px;
+  cursor: pointer;
+  border-radius: 15%;
+}
+
+.popular-dests {
+  width: 100%;
+}
+
+.popular-dests > h1 {
+  font-size: 24px;
+  color: black;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.destinations {
+  display: flex;
+  flex-direction: row;
+}
+
+.destinations-items {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 0 5px 0 0;
+}
+
+.destinations-items > h1 {
+  font-size: 14px;
+  color: black;
+  display: block;
+  font-weight: bold;
+}
+
+.destinations-items > h2 {
+  font-size: 12px;
+  color: grey;
+}
+.destinations-items > img .hotels-and-restaurants {
+  width: 300px;
+  height: 450px;
+}
+
+.hotels-and-restaurants {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.hotels-and-restaurants > h1 {
+  font-size: 24px;
+  color: black;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.hotels-and-restaurants-items {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: 0 5px 0 0;
+}
+
+.tips-and-advice-container {
+  width: 100%;
+}
+
+.tips-and-advice {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.tips-and-advice-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.tips-and-advice-header > h1 {
+  font-size: 24px;
+  color: black;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.tips-and-advice-item {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin: 0 5px 0 0;
+}
+
+.tips-and-advice-item img {
+  width: 250px;
+  height: 280px;
+}
+
+.tips-and-advice-item h1 {
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0 20px;
+}
+
+.tips-and-advice-item p {
+  padding: 20px;
+  font-size: 12px;
+  color: grey;
+}
+
+.title5 {
+  font-size: 24px;
+  color: black;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.activities {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  padding-left: 0px;
+  gap: 20px;
+  width: 100%;
+}
+.activities h1 {
+  font-size: 15px;
+}
+
+.about-us-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 80px;
+}
+.about-us {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 5px 0 0;
+  gap: 20px;
+}
+.about-us img {
+  width: 400px;
+  height: auto;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+.about-us h1 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+.about-us p {
+  padding-top: 40px;
+  font-size: 14px;
+  line-height: 19px;
+  color: grey;
+}
+
+.footer {
+  width: 100%;
+  background-color: #f9f9f9;
+  padding: 15px 10px;
+}
+
+.footer-container {
+  width: 100%;
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-evenly;
+}
+
+.footer-item {
+  display: flex;
+  width: 20%;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-item-small-width {
+  width: 5%;
+}
+
+.logo-title {
+  font-weight: bolder;
+}
+
+.footer-item p {
+  font-size: 12px;
+  color: #979797;
+}
+
+.footer-item h1 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.footer-item ul li {
+  font-size: 12px;
+  line-height: 25px;
+  color: #979797;
+}
+
+.footer-subscribe {
+  display: flex;
+  background-color: #ffffff;
+}
+
+.subscribe-content {
+  padding: 0 5px;
+}
+
+.subscribe-button {
+  background-color: #7b61ff;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+}
+
+.sub-container {
+  display: flex;
+}
+
+.sub-info {
+  display: flex;
+  gap: 10px;
+  padding-top: 5px;
+}
